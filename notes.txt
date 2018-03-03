@@ -1,0 +1,2 @@
+./node_modules/.bin/pbjs -t static-module -w commonjs -r package -o tests/assets/marshall.with.package.js tests/assets/marshall.with.package.proto
+./node_modules/.bin/pbjs -t static-module -w commonjs -r marshall -o tests/assets/marshall.js tests/assets/marshall.proto

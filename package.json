@@ -1,0 +1,28 @@
+{
+  "name": "rpc-layer",
+  "version": "0.0.1",
+  "description": "Minimal socket based rpc for protocol buffer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "rpc",
+    "protocol",
+    "buffer",
+    "protobuf"
+  ],
+  "author": "Kamalakar Gadireddy",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "traverse": "^0.6.6",
+    "varint": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "memory-streams": "^0.1.3",
+    "mocha": "^5.0.1",
+    "protobufjs": "^6.8.6"
+  }
+}
